@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/img/fondo4.webp");
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Estilo de la tarjeta */
+.card {
+    background-color: rgba(255, 255, 255, 0.8);   
+     padding: 80px;
+    border-radius: 25px;
+    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+}
+
+/* Estilo de la imagen */
+.card img {
+    width: 80%;
+    border-radius: 120px;
+    margin-bottom: 15px;
+
+
+}
+
+/* Estilo del texto */
+.card h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin-top: 20px;
+    font-weight:bolder;
+    font-size: 16px;
+    color: #555;
+}
+
+.card button {
+    margin-top: 30px;
+    font-weight: bold;
+    background-color: #9bb786;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover{
+    background-color: #3a5a40;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);  
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: transparent; /* Hacer el fondo transparente */
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    
+}
+
+/* Estilo del enlace de Instagram */
+footer a {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
